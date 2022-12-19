@@ -12,7 +12,7 @@ object Main {
     var s3 = new Student("liza", "Potapova", 18, "LisaP@gmail.com", addr3, "lissaa", "890", 0, 1000, smartcontrakt_1)
     var s4 = new Student("viktor", "Krasnui", 18, "VikotrL@gmail.com", addr3, "viktorr", "012", 0, 1000, smartcontrakt_1)
     var s5 = new Student("Sacha", "Alexandrov", 18, "SachaA@gmail.com", addr3, "sanyAA", "345", 0, 1000, smartcontrakt_1)
-    var birga = new Birrga()
+    var birrga = new Birrga()
     var platform = new Platform()
     h1.addinlist(s1)
     h1.addinlist(s2)
@@ -22,10 +22,10 @@ object Main {
 
     println(h1.Show())
     println(h1.showlist())
-    h1.evaluation(birga, platform)
+    h1.evaluation(birrga, platform)
     println(h1.Show())
     println(h1.showlist())
 
-    println(birga.Show())
+    println(birrga.Show())
     println(platform.Show());}
 }
